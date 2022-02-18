@@ -634,6 +634,11 @@ body {
             .feature {
                 display: block;
                 padding: 1rem;
+
+                .view-all {
+                    display: block;
+                    padding-top: 15px;
+                }
             }
             ul {
                 display: none;

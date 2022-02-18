@@ -747,6 +747,10 @@ body {
     display: block;
     padding: 1rem;
   }
+  .container .d-gallery .feature .view-all {
+    display: block;
+    padding-top: 15px;
+  }
   .container .d-gallery ul {
     display: none;
   }
