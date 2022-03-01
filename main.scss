@@ -281,7 +281,7 @@ body {
 }
 .contact {
     width: 100%;
-    background-image: url("./images/home.png");
+    background-image: url("./images/Rectangle\ 74.png");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 10;
@@ -328,6 +328,7 @@ body {
                     }
                     .row {
                         display: flex;
+                        padding-top: 12px;
                         gap: 3em;
                     }
                 }
@@ -514,6 +515,21 @@ body {
                     word-wrap: break-word;
                 }
             }
+        }
+    }
+
+    .d-gallery {
+        .feature {
+            display: block;
+            padding: 1rem;
+
+            .view-all {
+                display: block;
+                padding-top: 15px;
+            }
+        }
+        ul {
+            display: none;
         }
     }
 

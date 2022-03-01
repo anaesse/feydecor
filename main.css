@@ -348,7 +348,7 @@ body {
 
 .contact {
   width: 100%;
-  background-image: url("./images/home.png");
+  background-image: url("./images/Rectangle 74.png");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 10;
@@ -411,6 +411,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 12px;
   gap: 3em;
 }
 
@@ -629,6 +630,17 @@ body {
     font-size: 18px;
     line-height: 30px;
     word-wrap: break-word;
+  }
+  .d-gallery .feature {
+    display: block;
+    padding: 1rem;
+  }
+  .d-gallery .feature .view-all {
+    display: block;
+    padding-top: 15px;
+  }
+  .d-gallery ul {
+    display: none;
   }
   .more-info {
     -webkit-box-orient: vertical;
